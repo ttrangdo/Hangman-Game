@@ -1,0 +1,26 @@
+Pokemon Hangman
+
+// Game screen
+    - Greeting (Welcome to Pokemon Hangman)
+    - Underscores (representing key word)
+
+
+// When user presses a key:
+
+    // If user has available guesses remaining and key word has not been revealed:
+        
+        //Check user's guess against key word
+        
+            // If user's guess matches a letter in key word
+                // reveal instances where letter appears in key word
+
+            // Else, add the guess to the list of previous user guess attempts
+                // decrease the number of guess remaining
+
+
+        // Congratulate the player if guessed correct key word
+
+    // Else, display Game Over screen and Reset button
+
+
+

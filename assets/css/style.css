@@ -1,0 +1,56 @@
+body {
+    background-image: url("../images/wood-background.jpg");
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    color: white;
+  }
+
+#logo {
+      margin-top: -170px;
+  }
+
+#hangman {
+    font-size: 100px;
+    margin-top: -150px;
+
+}
+  #keyword{
+    font-family: 'Press Start 2P', cursive;
+    color: white;
+    font-size: 45px;
+    text-align: center;
+    margin-top: -40px;
+   
+
+  }
+  #game {
+      clear: both;
+      font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+
+  }
+
+  #guesses {
+      margin-left: 100px;
+      font-family: 'Press Start 2P', cursive;
+      font-size: 16px;
+      border-style: dotted;
+      width: 350px;
+      height: 20px;
+      text-align: center;
+      padding: 10px;
+      
+
+  }
+
+  #guessedLetters {
+      margin-left: 100px;
+      font-family: 'Press Start 2P', cursive;
+      font-size: 16px;
+      border-style: dotted;
+      width: 1000px;
+      height: 20px;
+      padding: 10px;
+     
+  }
+
+

@@ -1,0 +1,58 @@
+<!doctype html>
+<html lang-"en-us">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel= "stylesheet" type= "text/css" href="assets/css/style.css">
+    <link href="https://fonts.googleapis.com/css?family=Press+Start+2P" rel="stylesheet">
+
+    <title> POKEMON HANGMAN </title>
+</head>
+
+<body>
+
+    <center>
+        <img id="logo" src="assets/images/pokemon-vector-logo.png">
+    </center>
+    
+    <center>
+    <div id= "hangman"></div>
+    <h1> HANGMAN </h1>
+    </center>
+
+    <div id="keyword">
+    <p>
+    <h1>
+        <b id="displaykeyWord">  </b>
+    </h1>
+    </p>
+    </div>
+<br>
+
+    <div id="game">
+     <center>
+        <p id="press">Press SPACE to start playing!</p>
+    </center>
+    </div>
+    
+    <br>
+    <br> 
+    <br>
+    <br>
+    <p id ="guesses"></p>
+    <br>
+    <p id ="guessedLetters"></p>
+
+    <center>
+    <button id="resetbutton" onclick= "resetGame()"> RESET </button>
+    </center>
+
+
+    <script type="text/javascript" src="assets/javascript/game.js"> </script>
+
+    
+
+</body>
+</html>
+</doctype>
